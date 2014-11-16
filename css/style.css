@@ -1,0 +1,180 @@
+.container {
+	width: 900px;
+	max-width: 900px;
+}
+
+a {
+	cursor: pointer;
+}
+
+.header h4 a {
+	border-bottom: 1px dotted;
+}
+
+.header h4 a:hover {
+	text-decoration: none;
+}
+
+.jumbotron {
+	padding: 0px;
+}
+
+.jumbotron .row {
+	background-color: #a5a5a5;
+}
+
+.container .jumbotron {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.nav > li > a {
+	margin-right: 50px;
+}
+
+ul > li > h4 {
+	margin-right: 15px;
+}
+
+ul > li button {
+	margin-top: 3px;
+}
+
+.btn-info {
+	width: 49%;
+}
+
+.wrapping {
+	background-color: rgba(0, 0, 0, 0.53);
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+.window {
+	background-color: white;
+	display: none;
+	position: relative;
+	margin: 0 auto;
+	width: 420px;
+	top: 24px;
+}
+
+.window_header {
+	background-color: #ececec;
+	padding: 3px 0px;
+	height: 75px;
+}
+
+.window_header > .col-md-4 {
+	background-color: #ececec;
+}
+
+.window_header > .col-md-4 > span {
+	margin-right: -10px!important;
+}
+
+.form-group {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+.window_content {
+	padding: 0 15px;
+}
+
+.input-group-addon {
+	padding: 0;
+}
+
+#register_hint, #auth_hint, #sending_hint, #comment_hint, #personal_hint {
+	display: none;
+	text-align: center;
+}
+
+.alert {
+	margin-bottom: 0px;
+}
+
+.row.marketing {
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.col-md-4 {
+	background-color: #a5a5a5;
+}
+
+.col-md-4 #onestory {
+	border-bottom: 1px solid;
+}
+
+.col-md-4 #onestory:last-child {
+	border-bottom: none;
+}
+
+div#details {
+	font-style: italic;
+}
+
+#onecomment {
+	border: 1px solid #838383;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#comment_head {
+	text-align: left;
+	background-color: #838383;
+	color: #e3e3e3
+}
+
+#comment_head > div {
+	margin-left: 570px;
+	display: inline;
+	float: right;
+}
+
+#comment_head > div > a {
+	color: #eee;
+}
+
+
+#comment_body {
+	float: left;
+	width: 100%;
+	background-color: #f2f6f8;
+	border-radius: 0 0 5px 5px;
+}
+
+#comment_body > div {
+	float: left;
+	text-align: left;
+	padding: 3px;
+}
+
+#comment_body > #commentator_info {
+	width: 33%;
+	clear: both;
+	display: block;
+}
+
+#comment_body > #comment_text {
+	width: 67%;
+	border-radius: 0 0 5px 0;
+}
+
+#comment_text > p {
+	-moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    word-wrap: break-word;
+}
+
