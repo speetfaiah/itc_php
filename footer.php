@@ -1,5 +1,7 @@
 			<div class="footer">
 				<p>&copy; 2014</p>
+				<p>Автор: Евгений Соловьев</p>
+				<p>Исходники: <a href="https://github.com/speetfaiah/itc_php">github</a></p>
 			</div>
 	      
 			<div class="wrapping">

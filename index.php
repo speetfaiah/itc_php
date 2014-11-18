@@ -35,4 +35,12 @@
 					}
 		      	?>
 	      	</div>
+	      	<div style="text-align: center;">
+	      		<h3>Тестовые данные для входа (логин - пароль):</h3>
+	      		<ul class="list-group">
+				  <li class="list-group-item list-group-item-success">admin - adminadmin</li>
+				  <li class="list-group-item list-group-item-info">user - useruser</li>
+				  <li class="list-group-item list-group-item-danger">blocked - blockedblocked</li>
+				</ul>
+	      	</div>
 <? require "footer.php"; ?>
